@@ -1,22 +1,248 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Giovanni Ramacciotti - Portfolio Online</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Contato</li>
-                <li>Curriculo</li>
-            </ul>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni Ramacciotti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    
+    <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-close-icon" onclick="closeMobileMenu()">
+            <i class="fas fa-times"></i>
         </div>
-        <div>
-            <img src="img/Logo.png" alt="Giovanni Ramacciotti" id="logo">
-            <h1>Giovanni Ramacciotti</h1>
-            <h2>Analista de Sistemas - Flutter - Java - Banco de Dados SQL/NOSQL</h2>
+        <div class="profile-container">
+            <img src="assets/images/profile.jpg" alt="Foto de Perfil" class="profile-image">
+            <p class="profile-name">Giovanni Ramacciotti</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/giovanni-ramacciotti-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-2910b3208/" target="_blank" class="social-link"><i class="fab fa-linkedin social-icon" title="LinkedIn"></i></a>
+                <a href="https://github.com/gioramacciotti" class="social-link" target="_blank"><i class="fab fa-github social-icon" title="GitHub"></i></a>
+            </div>
+            <hr class="separator"> 
         </div>
-    </body>
+        <a href="#home" onclick="closeMobileMenu()"><i class="fas fa-home"></i> Home</a>
+        <a href="#curriculum" onclick="closeMobileMenu()"><i class="far fa-address-card"></i> Currículo</a>
+        <a href="#portfolio" onclick="closeMobileMenu()"><i class="fas fa-briefcase"></i> Portfolio</a>
+        <a href="#contact" onclick="closeMobileMenu()"><i class="fas fa-envelope"></i> Contato</a>
+    </div>    
+
+    <div class="sidebar">
+        <div class="profile-container">
+            <img src="assets/images/profile.jpg" alt="Foto de Perfil" class="profile-image">
+            <p class="profile-name">Giovanni Ramacciotti</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/giovanni-ramacciotti-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-2910b3208/" target="_blank" class="social-link"><i class="fab fa-linkedin social-icon" title="LinkedIn"></i></a>
+                <a href="https://github.com/gioramacciotti" class="social-link" target="_blank"><i class="fab fa-github social-icon" title="GitHub"></i></a>
+            </div>
+            <hr class="separator"> 
+        </div>
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+        <a href="#curriculum"><i class="far fa-address-card"></i> Currículo</a> 
+        <a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a> 
+        <a href="#contact"><i class="fas fa-envelope"></i> Contato</a>
+    </div>
+
+    <div class="content">
+        <section id="home">
+            <div class="resume">            
+                <h1>Giovanni Ramacciotti</h1> 
+                <ul>
+                    <li>                                   
+                    <p class="description">Com mais de uma década de experiência profissional, atuei por seis anos na área administrativa e por mais quatro anos na área Tech, sendo dois desses anos como Analista de Sistemas. Possuo experiência em gerenciamento de bancos de dados e linguagem SQL, além de conhecimento abrangente de outras tecnologias relevantes, como C#, Python, HTML, PhP, CSS, Java, HelpDesk, B.I., Trello, Figma, Office, Visual Code, Android Studio, entre outras. Ademais, destaco minha experiência em liderança de equipe, levantamento de requisitos, suporte técnico ao cliente e práticas metodológicas de ITIL, Scrum e Kanban.</p>
+                        <p class="description">Sou fluente em inglês e possuo alto nível de capacitação em aprendizado autônomo, sobretudo na área de tecnologia e desenvolvimento. Caracterizo-me como proativo, extremamente autodidata e altamente comprometido com a excelência no trabalho, buscando sempre oportunidades de aprendizado e aprimoramento profissional. Além disso, tenho um forte valor pela diversidade e gestão humanizada.</p>
+                        <p class="description">Caracterizo-me como proativo, extremamente autodidata e altamente comprometido com a excelência no trabalho, buscando sempre oportunidades de aprendizado e aprimoramento profissional. Além disso, tenho um forte valor pela diversidade e gestão humanizada.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="curriculum">            
+            <div class="skills">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Inglês fluente</li>  
+                    <li>Banco de Dados</li>                  
+                    <li>SQL</li>
+                    <li>Oracle</li>
+                    <li>API</li>
+                    <li>Postman</li>
+                    <li>Swagger</li>
+                    <li>Git</li>
+                    <li>Grafana</li>
+                    <li>Asana</li>                    
+                    <li>Azure</li>     
+                    <li>Power B.I.</li>                                                       
+                    <li>Wordpress</li>
+                    <li>Android Studio</li>
+                    <li>Visual Studio</li>
+                    <li>Windows</li>          
+                    <li>Linux</li>                    
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li> 
+                    <li>PHP</li>                    
+                    <li>Flutter</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Scrum</li>
+                    <li>Kanban</li> 
+                </ul>
+            </div>
+            <div class="experience">
+                <ul>
+                    <li> 
+                        <h2>Experiências</h2>                       
+                        <h3><img src="assets/images/logoGateway.jpg" alt="Gateway">Gateway Sistemas</h3>
+                        <p class="job">Analista de banco de dados</p>
+                        <p class="duration">Jan 2021 - Jan 2023 (2 anos e 1 mês)</p>
+                        <p class="description">Manutenção e gerenciamento de bancos de dados em Firebird, elaboração de queries, triggers, procedures e views, que possibilitavam a maximização do desempenho e segurança dos bancos de dados. Além de conversões de banco de dados em diferentes plataformas, como SQLServer, MYSQL, Oracle, Postgre, Mariadb, entre outros, restauração de bancos corrompidos e elaboração de relatórios avançados com SQL.</p>
+
+                        <p class="job">Instrutor de suporte técnico</p>
+                        <p class="duration">Dez 2019 - Dez 2020 (1 ano e 1 mês)</p>
+                        <p class="description">Responsável por equipar a equipe de suporte ao atendimento ao cliente com as habilidades e conhecimentos necessários para oferecer soluções eficientes e eficazes aos clientes. Conduzi treinamentos presenciais e remotos de alta qualidade, desenvolvi materiais de treinamento, além de ter realizado suporte técnico remoto e presencial para resolução de problemas. Como líder e comunicador eficaz, tenho habilidade em trabalhar em equipe com colegas de todos os departamentos, incluindo vendas, suporte técnico e desenvolvimento de software.</p>
+
+                        <p class="job">Suporte técnico ao cliente</p>
+                        <p class="duration">Jul 2019 - Dez 2019 (6 meses)</p>
+                        <p class="description">Responsável por garantir a satisfação dos clientes em relação à utilização do sistema. Prestação de assistência técnica remota (TeamViewer, AnyDesk, Ammy) e presencial, solução de problemas, diagnóstico de malfunções, orientação sobre uso do sistema e treinamento dos usuários. Capaz de identificar e resolver problemas rapidamente, aumentando a eficiência e a produtividade dos clientes.</p>
+                    </li>
+                    <li>
+                        <h3><img src="assets/images/logoNovaEra.jpg" alt="Nova Era">Nova Era Drenagem e Pré Moldados</h3>
+                        <p class="job">Assistente administrativo</p>
+                        <p class="duration">Jun 2015 - May 2019 (4 anos)</p>
+                        <p class="description">Em minha trajetória profissional, adquiri habilidades em administração financeira e contábil, englobando tarefas como gerenciamento de contas a pagar e a receber, fluxo de caixa, emissão de notas fiscais, compras, processamento de folha de pagamento, fechamento mensal, movimentações contábeis, arquivamento, lançamentos em sistemas, gerenciamento do Departamento Pessoal e gestão de estoque no almoxarifado. Possuo excelentes habilidades de comunicação e atendimento a clientes e fornecedores. Além disso, trabalhei com controle de frota, levantamento de projetos e exerci a função de Secretário da CIPA.</p>
+
+                        <p class="job">Auxiliar de escritório</p>
+                        <p class="duration">Apr 2013 - Apr 2015 (2 anos)</p>
+                        <p class="description">Responsável por garantir a satisfação dos clientes em relação à utilização do sistema. Prestação de assistência técnica remota (TeamViewer, AnyDesk, Ammy) e presencial, solução de problemas, diagnóstico de malfunções, orientação sobre uso do sistema e treinamento dos usuários. Capaz de identificar e resolver problemas rapidamente, aumentando a eficiência e a produtividade dos clientes.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2>Formação</h2>                          
+                <h3><img src="assets/images/logoFatec.jpg" alt="Gateway">Faculdade de Tecnologia de São Paulo - FATEC-SP</h3>      
+                <div class="courses">
+                    <p class="institution">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+                    <p class="duration">Jan 2020 - Jun 2024 (3 anos e 6 meses)</p>
+                </div>
+                <div class="disciplines">
+                    <ul>
+                        <li>Administração Geral</li>
+                        <li>Gestão de Equipes</li>
+                        <li>Contabilidade</li>                        
+                        <li>Economia e Finanças</li>
+                        <li>Sociedade e Tecnologia</li>
+                        <li>Arquitetura e Organização de Computadores</li>
+                        <li>Algoritmos e Lógica de Programação</li>
+                        <li>Banco de Dados</li>
+                        <li>Laboratório de Banco de Dados</li>
+                        <li>Estruturas de Dados</li>
+                        <li>Engenharia de Software</li>
+                        <li>Laboratório de Engenharia de Software</li>
+                        <li>Interação Humano Computador</li>
+                        <li>Laboratório de Hardware</li>
+                        <li>Programação em Microinformática</li>
+                        <li>Programação Orientada a Objetos</li>
+                        <li>Linguagem de Programação</li>
+                        <li>Programação WEB</li>
+                        <li>Linguagem VB.NET e ASP</li>
+                        <li>Redes de Computadores</li>
+                        <li>Segurança da Informação</li>
+                        <li>Sistemas de Informação</li>
+                        <li>Sistemas Operacionais</li>
+                        <li>Inglês</li>
+                        <li>Comunicação e Expressão</li>
+                        <li>Cálculo</li>
+                        <li>Estatística Aplicada</li>
+                        <li>Matemática Discreta</li>
+                        <li>Programação Linear e Aplicações</li>
+                        <li>Metodologia da Pesquisa Científico-Tecnológica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <h2>Portfólio</h2>
+        <section id="portfolio">
+            <div class="portfolio-container">
+                <a href="verziwebsystem.html" class="portfolio-item">
+                    <div class="project-thumbnail">
+                        <img src="assets/images/logoWebsystem.png" alt="Verzi Websystem">
+                    </div>                    
+                    <div class="project-details">
+                        Verzi Websystem
+                        <p>Software de Automação Comercial</p>
+                    </div>
+                </a>
+                <a href="verziimports.html" class="portfolio-item">
+                    <div class="project-thumbnail">
+                        <img src="assets/images/verziImports.png" alt="Verzi Imports">
+                    </div>                    
+                    <div class="project-details">
+                        Verzi Imports
+                        <p>Website de E-Commerce</p>
+                    </div>
+                </a>
+                <a href="verzisecurity.html" class="portfolio-item">
+                    <div class="project-thumbnail">
+                        <img src="assets/images/verziSecurity.png" alt="Verzi Security">
+                    </div>                    
+                    <div class="project-details">
+                        Verzi Security
+                        <p>Blog de Segurança da Informação</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <br><hr class="separator"> 
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <div class="contact-item">                    
+                    <a href="https://wa.me/5515996002479" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>WhatsApp: +55(15)99600-2479</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="giovanni.ramacciotti@yandex.com" target="_blank"></a>
+                        <i class="far fa-envelope"></i>
+                        <p>giovanni.ramacciotti@yandex.com</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/giovanni-ramacciotti-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-2910b3208" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <p>Linkedin</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/gioramacciotti" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://discordapp.com/users/seudiscord" target="_blank">
+                        <i class="fab fa-discord"></i>
+                        <p>Discord</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://open.spotify.com/user/8o7au228njuk0pzxnfrp7vph0" target="_blank">
+                        <i class="fab fa-spotify"></i>
+                        <p>Spotify</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <script src="assets/script.js"></script>    
+</body>
 </html>
